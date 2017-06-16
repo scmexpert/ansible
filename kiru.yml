@@ -1,0 +1,7 @@
+--- # Install Jenkins CI
+- name: install jenkins
+  hosts: localhost
+  sudo: True
+  roles:
+    - git
+    - geerlingguy.jenkins
